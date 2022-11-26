@@ -1,0 +1,19 @@
+/* import fonts */
+
+/* lora font */
+@font-face {
+  font-family: 'Lora';
+  src: url("../fonts/Lora/Lora-VariableFont_wght.ttf") format('TrueType');
+  font-weight: 400;
+}
+
+/* Ubuntu bold font */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format('TrueType');
+  font-weight: 700;
+}
+
+/* Font family */
+$nav-font: 'Ubuntu', sans-serif;
+$primary-font: 'Lora', serif;

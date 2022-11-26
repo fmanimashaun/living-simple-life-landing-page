@@ -60,4 +60,7 @@ module.exports = {
       },
     ],
   },
+  performance: {
+    maxAssetSize: 520000,
+  },
 };
