@@ -1,17 +1,17 @@
 ![](https://img.shields.io/badge/fmanimashaun-green)
 
-# Webpack 5 boilerplate with Sass
+# Living the simple Life landing page
 
 ## Overview
 
-This is a simple webpack 5 boilerplate for a static website using Sass and reset css.
+This is a simple responsive layour
 
 ## Project Objectives
 
 
 ## DEMO LINK
 
-> [Live Demo Link](https://fmanimashaun.github.io/webpack-boilerplate/)
+> [Live Demo Link](#)
 
 ## Screenshots
 
@@ -29,7 +29,6 @@ This is a simple webpack 5 boilerplate for a static website using Sass and reset
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [webpack 5](https://webpack.js.org/)
 - [npm](https://www.npmjs.com/)
-- [VS Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com)
 - [Stylelinter](https://stylelint.io/)
