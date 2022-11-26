@@ -1,3 +1,2 @@
-// eslint-disable-next-line no-unused-vars
-import reset from 'reset-css';
+import normalize from 'normalize.css';
 import '../scss/styles.scss';
