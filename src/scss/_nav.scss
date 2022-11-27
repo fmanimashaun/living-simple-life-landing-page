@@ -1,1 +1,16 @@
 @use 'global';
+
+.header {
+  text-align: center;
+}
+
+.navbar {
+  &__list {
+   display: flex;
+   justify-content: center;
+  }
+
+  &__item {
+    margin: 0 1rem;
+  }
+}

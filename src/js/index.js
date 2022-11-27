@@ -1,2 +1,2 @@
-import normalize from 'normalize.css';
+import 'reset-css';
 import '../scss/styles.scss';

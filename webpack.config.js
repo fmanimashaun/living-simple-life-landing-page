@@ -15,7 +15,7 @@ module.exports = {
       {
         filename: 'css/[name].css',
       }
-    )
+    ),
   ],
   output: {
     filename: 'js/[name].js',
