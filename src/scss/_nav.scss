@@ -1,25 +1,35 @@
+/* import the needed sass files */
 @use 'colors' as color;
 @use 'fonts' as font;
+
+/* =================
+Layout
+================= */
 
 .header {
   background-color: color.$light;
   padding: 2rem 0;
+
   @media only screen and (max-width: 675px) {
-      text-align: center;
-    }
+    text-align: center;
+  }
 }
 
+/* header inner wrapper*/
 .header__wrapper {
   display: flex;
   justify-content: space-between;
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
+
+  /* add a media query for mobile */
   @media only screen and (max-width: 675px) {
     flex-direction: column;
   }
 }
 
+/* header logo */
 .title {
   font-family: font.$title-font;
   font-size: 2rem;
@@ -35,23 +45,32 @@
   line-height: 1.5em;
 }
 
+/* navigation */
 .navbar {
+
+  /* navigation list */
   &__list {
     display: flex;
     justify-content: center;
     margin-block: 1rem;
+
+    /* add a media query for mobile */
     @media only screen and (max-width: 675px) {
-        flex-direction: column;
-      }
+      flex-direction: column;
+    }
   }
 
+  /* navigation list items */
   &__item {
     margin-inline-start: 2em;
+
+    /* add a media query for mobile */
     @media only screen and (max-width: 675px) {
-        margin: 0.5em 0;
-      }
+      margin: 0.5em 0;
+    }
   }
 
+  /* navigation item link */
   &__link {
     padding: 0.25rem 0;
     font-size: 0.75rem;
