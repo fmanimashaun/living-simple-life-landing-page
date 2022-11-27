@@ -1,16 +1,78 @@
-@use 'global';
+@use 'colors' as color;
+@use 'fonts' as font;
 
 .header {
-  text-align: center;
+  background-color: color.$light;
+  padding: 2rem 0;
+  @media only screen and (max-width: 675px) {
+      text-align: center;
+    }
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  @media only screen and (max-width: 675px) {
+    flex-direction: column;
+  }
+}
+
+.title {
+  font-family: font.$title-font;
+  font-size: 2rem;
+  font-weight: 400;
+  color: color.$dark-blue;
+  line-height: 1.5em;
+}
+
+.subtitle {
+  font-size: .75rem;
+  font-weight: 700;
+  color: color.$light-blue;
+  line-height: 1.5em;
 }
 
 .navbar {
   &__list {
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-block: 1rem;
+    @media only screen and (max-width: 675px) {
+        flex-direction: column;
+      }
   }
 
   &__item {
-    margin: 0 1rem;
+    margin-inline-start: 2em;
+    @media only screen and (max-width: 675px) {
+        margin: 0.5em 0;
+      }
+  }
+
+  &__link {
+    padding: 0.25rem 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: color.$gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+
+    &:hover,
+    &:focus {
+      color: color.$light-blue;
+    }
+
+    &.current-page {
+      border-block-end: 1px solid color.$gray;
+
+      &:hover {
+        color: color.$gray;
+      }
+    }
   }
 }
