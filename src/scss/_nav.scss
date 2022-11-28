@@ -35,16 +35,17 @@ Layout
   font-size: 2rem;
   font-weight: 400;
   color: color.$dark-blue;
-  line-height: 1.5em;
+  line-height: 1.31em;
+  letter-spacing: 0;
 }
 
 .subtitle {
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: color.$light-blue;
-  line-height: 1.5em;
+  line-height: 1.08em;
   text-transform: uppercase;
-  letter-spacing: 2.4px;
+  letter-spacing: 0.1em;
 }
 
 /* navigation */
@@ -80,7 +81,7 @@ Layout
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: .1em;
-    line-height: 1.5em;
+    line-height: 1.125em;
 
     &:hover,
     &:focus {
